@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/CSS&HTMLAssignment3/parallaxwebsite.css">
+<title>Parallax Website</title>
+</head>
+<body>
+    <div class ="box1"></div> 
+   <div class ="box2">
+       <h4>Heaven is under our feet as well as over our heads. —Henry David Thoreau</h4>
+   </div> 
+   <div class ="box3">
+        <h4>Men argue. Nature acts. —Voltaire</h4>
+    </div> 
+    <div class ="box4">
+        <h4>The richness I achieve comes from Nature, the source of my inspiration. —Claude Monet</h4>
+    </div> 
+</body>
+</html>
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h4{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/_Parallax.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    display: table;
+    background-attachment: fixed;
+}
+.box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/nature3.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    display: table;
+    background-attachment: fixed;
+
+
+}
+.box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/1.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    display: table;
+    background-attachment: fixed;
+
+
+}
+.box4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/spring-photography.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    display: table;
+    background-attachment: fixed;
+}

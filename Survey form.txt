@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/CSS&HTMLAssignment3/surveyform.css">
+<title>Survey form</title>
+</head>
+  
+<body>
+    <h3>Survey Form</h3>
+    <form id="form">
+
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+  
+        <div class="form-control">
+            <label for="Date" id="label-date">
+                Date of birth
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="date"
+                   id="Date"
+                   placeholder="Enter your birthdate" />
+        </div>
+  
+        <div class="form-control">
+            <label for="Year" id="label-year">
+                Year of Passout
+            </label>
+            <select name="Year" id="Year">
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="other">Other></option>
+                <input type="year"
+                   id="year"
+                   placeholder="Enter your year here" />
+
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>Languages you are fimiliar with</label>
+            <label for="C">
+                <input type="checkbox"
+                       name="C">C</input></label>
+            <label for="C++">
+                <input type="checkbox"
+                       name="C++">C++</input></label>
+        
+            <label for="Java">
+                <input type="checkbox"
+                       name="Java">Java</input></label>
+            <label for="Python">
+                <input type="checkbox"
+                       name="Python">Python</input></label>
+            <label for="MySql">
+                <input type="checkbox"
+                       name="MySql">MySql</input></label>
+            <label for="JavScript">
+                <input type="checkbox"
+                       name="Javascript">JavScript</input></label>
+            <label for="Angular">
+                <input type="checkbox"
+                       name="Angular">Angular</input></label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                Project you have worked on
+            </label>
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+  
+</html>
+
+
+
+
+
+/* Styling the Body element i.e. Color,
+Font, Alignment */
+body {
+    background-color:seashell;
+    font-family: Verdana;
+    text-align: center;
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling form-control Radio
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

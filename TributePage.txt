@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/CSS&HTMLAssignment3/TributePage.css">
+<title>Tribute Page</title>
+</head>
+<body>
+    <h2>Steve Jobs</h2>
+    <img src="/images/Steve Jobs.png"width="100" height="100"  alt="Steve Jobs">
+    <div>
+        <b>
+            <p >American business magnate</p>
+        </b>
+            <p>Steve Jobs was an American <a href="https://en.wikipedia.org/wiki/Business_magnate"> business magnate</a>,<a href="https://en.wikipedia.org/wiki/Industrial_design"> industrial designer </a>,<a href="https://en.wikipedia.org/wiki/Investor">investor </a>, and <a href="https://en.wikipedia.org/wiki/Media_proprietor"> media proprietor</a>. He was the chairman, chief executive officer (CEO), and co-founder of Apple Inc.</p>
+<br>
+        <b>
+            <p>10 Things We Can Learn From Steve Jobs</p>
+        </b>
+    <h6>
+        <ul>
+        <li>Love what you do :What had been the focus of my entire adult life was gone, and it was devastating, I even thought about running away from the valley. But something slowly began to dawn on me. I still loved what I did. And so I decided to start over.</li>
+        <li>Cut out or avoid the bozos</li>
+        <li>Surround yourself with culture to be more creative</li>
+        <li>Don’t be afraid to take risks</li>
+        <li>Keep it simple</li>
+        <li>Qualifications are not everything</li>
+        <li>Money need not dictate your projects</li>
+        <li>Learn to be bold</li>
+        <li>Question everything</li>
+        <li>Technology can change the world for the better</li>
+        </ul>
+    </h6>
+    <h5>“Have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.”</h5>
+    <h5>  ― Steve Jobs</h5>
+    </div>
+</body>
+</html>
+
+body{
+    background-color: lightcyan;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+h2{
+    text-align: center;
+    margin: 0px;
+}
+h5{
+    font-size: 9px;
+    font-family:serif;
+    margin: 0px;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+    margin: 0px;
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 9px;
+}

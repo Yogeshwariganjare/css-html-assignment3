@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/CSS&HTMLAssignment3/photography.css">
+<title>Photography Page</title>
+</head>
+<body>   
+    
+    <div class="wrappers">
+        <div class="header">
+        <div class="logo">
+        <img src="/images/image/photo.jpg" />
+        </div>
+       
+        </div>
+        <div class="sidebar">
+        <a href="#">Home</a>
+        <a href="/CSS&HTMLAssignment3/AboutUs.html">About us</a>
+        <a href="/CSS&HTMLAssignment3/Contact.html">Contact</a>    
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/image/1.png">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/image/2.png">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/image/4.png">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/image/5.png">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/image/1.png">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/image/2.png">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/image/1.png">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/image/7.png">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/image/1.png">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+*{margin: 0;padding: 0;}
+.col-md-4{
+    width: 33.3333%;
+    float: left;
+}
+img{
+    width: 100%;
+    float: left;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 200px;
+    float: left;
+}
+
+.sidebar{
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.sidebar a{
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    padding:25px, 0;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+.sidebar a:hover, .sidebar a:focus, .sidebar a:active{
+    background-color: #fff;
+    color: #000;
+}
